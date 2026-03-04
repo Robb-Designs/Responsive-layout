@@ -1,18 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hamburger</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <div class="grid-container">
-        <div>Item 1 </div>
-        <div>Item 2</div>
-        <div>Item 3</div>
-        <div>Item 4</div>
-        <div>Item 5</div>
-    </div>
+
+    <header>
+        <nav>
+            <div class="nav-container">
+
+
+                <div class="nav-left">
+                    <h2>Hamburger</h2>
+                </div>
+
+                <div class="hamburger">
+                    <i class="fa-solid fa-burger"></i>
+
+                </div>
+
+                <div class="nav-right">
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Games</a></li>
+                        <li><a href="#">Locations</a></li>
+                        <button class="nav-btn">Sign In</button>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="hero-info">
+            <h1>Lets Make Some Burgers <span><img class="burger-img" src="./burger.png" alt="burger image" </span></h1>
+            <p>
+                This is a fun interactive game about crafting hamburgers! If you dont like this game feel free to
+                modify it and make it your own.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#">Lets Play</a>
+                <a href="#">Create My Own</a>
+            </div>
+        </div>
+        <div class="grid-container">
+            <div class="grid-item" style="grid-area: box-1">Item 1</div>
+            <div class="grid-item" style="grid-area: box-2">Item 2</div>
+            <div class="grid-item" style="grid-area: box-3">Item 3</div>
+            <div class="grid-item" style="grid-area: box-4">Item 4</div>
+            <div class="grid-item" style="grid-area: box-5">Item 5</div>
+        </div>
+    </section>
 </body>
+
 </html>
